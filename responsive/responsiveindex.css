@@ -1,0 +1,126 @@
+@media(max-width:575px){
+    [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled)
+{
+  cursor: pointer;
+  color: #fff;
+}
+.menu-bg h2{
+  font-size: 40px;
+}
+.menu-bg ul{
+    background-color: #fff;
+    padding: 20px 0 66px 0px;
+    position: relative;
+}
+.menu-button a{
+    background-color: #f9004d;
+    position: absolute;
+    top: 290px;
+    right: 110px;
+}
+.menu-bg ul li a{
+    color: #000;
+    background: antiquewhite;
+    border: 2px solid red;
+    border-radius: 5px;
+    margin: 10px 80px;
+}
+#banner
+{
+  padding: 80px 0;
+}
+.ban-text h4
+{
+  font-size: 25px;
+}
+.ban-text h1
+{
+  font-size: 34px;
+}
+.form form input:first-child
+{
+  margin-bottom: 30px;
+}
+}
+
+
+
+@media(min-width:576px) and (max-width:767px){
+    [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled)
+{
+  cursor: pointer;
+  color: #fff;
+}
+.menu-bg ul{
+    background-color: #fff;
+    padding: 20px 10px;
+    position: relative;
+}
+.menu-button a{
+    background-color: #f9004d;
+    position: absolute;
+    top: 90px;
+    right: 140px;
+    
+}
+.menu-bg ul li a{
+    color: #000;
+}
+#banner
+{
+  padding: 80px 0;
+}
+.ban-text h1
+{
+  font-size: 55px;
+}
+.form form input:first-child
+{
+  margin-bottom: 30px;
+}
+}
+
+
+
+@media(min-width:768px) and (max-width:991px){
+    [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled)
+{
+  cursor: pointer;
+  color: #fff;
+}
+.menu-bg ul{
+    background-color: #fff;
+    padding: 20px 10px;
+    position: relative;
+}
+.menu-button a{
+    background-color: #f9004d;
+    position: absolute;
+    top: 90px;
+    right: 170px;
+    
+}
+.menu-bg ul li a{
+    color: #000;
+}
+#banner
+{
+  padding: 80px 0;
+}
+.ban-text h1
+{
+  font-size: 55px;
+}
+.form form input:first-child
+{
+  margin-bottom: 30px;
+}
+}
+
+
+@media(min-width:992px) and (max-width:1200px){
+  .ban-text h1
+{
+  font-size: 50px;
+}
+}

@@ -1,0 +1,61 @@
+#service{
+    padding: 70px 0;
+    background-color: black;
+}
+.service-text h2{
+    text-align: center;
+    color: #FFF;
+    font-family:"Poppins", sans-serif ;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.service-card{
+    margin-top: 100px;
+    background-color: #191919;
+    padding: 20px 20px 60px 20px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.service-card:hover{
+    background-color: #f9004d;
+}
+.service-card i{
+    font-size: 50px;
+    color: #f9004d;
+    margin: 25px 0;
+    display: block;
+    text-align: center;
+    transition: 0.5s;
+}
+.service-card i:hover{
+    color: #FFF;
+}
+.service-card h4{
+    text-align: center;
+    color: #FFF;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family:"Poppins", sans-serif ;
+    font-weight: 600;
+}
+.service-card p{
+    text-align: center;
+    color: pink;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-family:"Poppins", sans-serif ;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+.service-card a{
+    text-decoration: none;
+    border: 2px solid #fff;
+    background-color: #f9004d;
+    padding: 15px 40px;
+    border-radius: 10px;
+    color: #FFF;
+    text-transform: capitalize;
+    margin-left: 70px;
+}

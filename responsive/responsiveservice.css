@@ -1,0 +1,39 @@
+@media(min-width:576px) and (max-width:767px){
+    .service-card a
+{
+  margin-left: 145px;
+}
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .service-card a
+    {
+      padding: 15px 30px;
+      margin-left: 18px;
+    }
+    .service-card h4
+{
+  font-size: 18px;
+}
+.service-card p
+{
+  font-size: 14px;
+  line-height: 25px;
+}
+}
+
+
+
+@media(min-width:992px) and (max-width:1200px){
+    .service-card a
+    {
+      margin-left: 40px;
+    }
+} 
+
+@media(min-width:1200px) and (max-width:1400px){
+    .service-card a
+    {
+      margin-left: 95px;
+    }
+} 

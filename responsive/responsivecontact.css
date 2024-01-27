@@ -1,0 +1,103 @@
+@media(max-width:575px){
+    #contact
+{
+  padding: 70px 0;
+}
+.mail a
+{
+  font-size: 20px;
+}
+.mail a i
+{
+  font-size: 20px;
+  padding-right: 10px;
+}
+.number a
+{
+  font-size: 20px;
+}
+.number a i
+{
+  font-size: 20px;
+  padding-right: 10px;
+}
+.icon i
+{
+  font-size: 25px;
+}
+.form input
+{
+  width: 100%;
+  margin-top: 30px;
+}
+.form textarea
+{
+  width: 100%;
+}
+button
+{
+  margin-top: 30px;
+  margin-left: 30px;
+}
+}
+
+@media(min-width:576px) and (max-width:767px){
+  #contact
+{
+  padding: 65px 0;
+}
+  .form input
+  {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .form textarea
+  {
+    width: 100%;
+  }  
+}
+
+
+@media(min-width:768px) and (max-width:991px){
+  #contact
+{
+  padding: 65px 0;
+}
+  .form input
+  {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .form textarea
+  {
+    width: 100%;
+  }  
+}
+
+
+@media(min-width:992px) and (max-width:1200px){
+  #contact
+{
+  padding: 65px 0;
+}
+  .form input
+  {
+    width: 100%;
+  }
+  .form textarea
+  {
+    width: 100%;
+  }  
+}
+
+
+@media(min-width:1200px) and (max-width:1400px){
+  .form input
+  {
+    width: 100%;
+  }
+  .form textarea
+  {
+    width: 100%;
+  }  
+}

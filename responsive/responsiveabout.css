@@ -1,0 +1,9 @@
+@media(max-width:575px){
+    .ab-text h4 {
+        font-size: 25px;
+    }    
+    .ab-text p {
+        font-size: 14px;
+        line-height: 30px;
+    }
+}

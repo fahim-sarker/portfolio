@@ -1,0 +1,31 @@
+@media(max-width:575px){
+    .tm-img img
+{
+  height: 300px;
+}
+.tm-2-img img
+{
+  height: 300px;
+}
+.tm-img a
+{
+  padding-bottom: 50px;
+}
+.tm-button a{
+    margin-left: 60px;
+}
+}
+
+
+@media(min-width:576px) and (max-width:767px){
+  .tm-img a
+{
+  padding-bottom: 50px;
+}
+}
+@media(min-width:768px) and (max-width:991px){
+  .tm-img a
+{
+  padding-bottom: 50px;
+}
+}

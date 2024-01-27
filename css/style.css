@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu-bg {
+    position: fixed;
+    width: 100%;
+}
+.menu-bg ul li a{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px; 
+    padding: 0 20px !important;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.menu-bg ul li a:hover{
+    color: #f9004d;
+}
+.menu-button{
+    padding-right: 30px;
+}
+.menu-button a{
+    color: #fff;
+    font-family:"Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid #f9004d;
+    transition: 0.6s;
+    text-transform: capitalize;
+}
+.menu-button a:hover{
+    background-color: #f9004d;
+}
+.menu-bg h2{
+    font-size: 50px;
+    color: #fff;
+    font-family:"Poppins", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+span {
+    color: #f9004d;
+}
+
+/* banner part start */
+#banner {
+    background-color: #000;
+    padding: 128px 0; 
+}
+
+.ban-text {
+    padding: 80px 30px 10px 10px;
+}
+
+.ban-text h4 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    transition: 0.5s;
+}
+.ban-text h4:hover{
+    color: aqua;
+}
+
+.ban-text h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding: 10px 0;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.ban-text h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding-bottom: 50px;
+    color: #fff;
+}
+
+.form form {
+    width: 450px;
+    max-width: 100%;
+    position: relative;
+}
+
+.form form input:first-child {
+    display: inline-block;
+    width: 100%;
+    padding: 15px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    border-radius: 10px;
+}
+
+.form form input:last-child {
+    position: absolute;
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #f9004d;
+    color: #fff;
+    top: 1px;
+    right: 1px;
+    border: #f9004d;
+}
+.ban-img{
+    background-color: #fff;
+    border-radius: 20px;
+}
+.ban-img img{
+    width: 100%;
+    height:100%;
+    border-radius: 20%;
+}
+/* banner part end */
